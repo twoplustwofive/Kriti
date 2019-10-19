@@ -1,0 +1,25 @@
+<!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-auth.js"></script>
+
+<script>
+    // TODO: Replace the following with your app's Firebase project configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyCRH7Z6iCJBB3BU5RQJbUpUtieWS8TcLFk",
+        authDomain: "kriti-610f3.firebaseapp.com",
+        databaseURL: "https://kriti-610f3.firebaseio.com",
+        projectId: "kriti-610f3",
+        storageBucket: "kriti-610f3.appspot.com",
+        messagingSenderId: "949310568314",
+        appId: "1:949310568314:web:3b811ad434fb6ff2ca48c3",
+        measurementId: "G-N564F1KV1W"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+</script>
+
+<script src="/javascripts/firebaseAuth.js"></script>
+
+<button onclick="signIn()">Login</button>
